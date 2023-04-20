@@ -11,7 +11,7 @@ export function App() {
 	return (
 		<>
 			<Picture img={img} webp={imgWebp} className="hello" alt="image" />
-			<Picture img={png} webp={imgWebp} className="hello" />
+			<Picture img={png} webp={imgWebp} className="hello" alt="type"/>
 			<h1 className="title">Hello, World</h1>
 		</>
 	)
