@@ -17,29 +17,4 @@ $width767: 'max-width: 767px';
 $width575: 'max-width: 575px';
 $width375: 'max-width: 375px';
 
-@mixin flex-center-center {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
 
-@mixin flex-ai-center {
-	display: flex;
-	align-items: center;
-}
-
-@mixin flex-jc-center {
-	display: flex;
-	align-items: center;
-}
-
-@mixin flex-center-between {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-@mixin flex-between {
-	display: flex;
-	justify-content: space-between;
-}
